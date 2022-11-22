@@ -8,20 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E743E276292D6AAB008CE244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E275292D6AAB008CE244 /* AppDelegate.swift */; };
-		E743E278292D6AAB008CE244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E277292D6AAB008CE244 /* SceneDelegate.swift */; };
 		E743E27A292D6AAB008CE244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743E279292D6AAB008CE244 /* ViewController.swift */; };
-		E743E27D292D6AAB008CE244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E743E27B292D6AAB008CE244 /* Main.storyboard */; };
 		E743E27F292D6AAD008CE244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E743E27E292D6AAD008CE244 /* Assets.xcassets */; };
 		E743E282292D6AAD008CE244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E743E280292D6AAD008CE244 /* LaunchScreen.storyboard */; };
-		E743E28A292D6AD7008CE244 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E743E289292D6AD7008CE244 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E743E272292D6AAB008CE244 /* GuessWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E743E275292D6AAB008CE244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E743E277292D6AAB008CE244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E743E279292D6AAB008CE244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E743E27C292D6AAB008CE244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E743E27E292D6AAD008CE244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E743E281292D6AAD008CE244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E743E283292D6AAD008CE244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,9 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E743E275292D6AAB008CE244 /* AppDelegate.swift */,
-				E743E277292D6AAB008CE244 /* SceneDelegate.swift */,
 				E743E279292D6AAB008CE244 /* ViewController.swift */,
-				E743E27B292D6AAB008CE244 /* Main.storyboard */,
 				E743E27E292D6AAD008CE244 /* Assets.xcassets */,
 				E743E280292D6AAD008CE244 /* LaunchScreen.storyboard */,
 				E743E283292D6AAD008CE244 /* Info.plist */,
@@ -128,10 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E743E28A292D6AD7008CE244 /* .gitignore in Resources */,
 				E743E282292D6AAD008CE244 /* LaunchScreen.storyboard in Resources */,
 				E743E27F292D6AAD008CE244 /* Assets.xcassets in Resources */,
-				E743E27D292D6AAB008CE244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,21 +135,12 @@
 			files = (
 				E743E27A292D6AAB008CE244 /* ViewController.swift in Sources */,
 				E743E276292D6AAB008CE244 /* AppDelegate.swift in Sources */,
-				E743E278292D6AAB008CE244 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E743E27B292D6AAB008CE244 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E743E27C292D6AAB008CE244 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E743E280292D6AAD008CE244 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +278,6 @@
 				INFOPLIST_FILE = GuessWordGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -328,7 +309,6 @@
 				INFOPLIST_FILE = GuessWordGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
