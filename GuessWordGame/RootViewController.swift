@@ -43,13 +43,7 @@ final class RootViewController: UIViewController {
     }
     
     private func drawLetterButtons() {
-        
-        let letters: [String] = [
-            "A", "B", "C", "D", "E", "F", "G",
-            "H", "I", "J", "K", "L", "M", "N",
-            "O", "P", "Q", "R", "S", "T", "U",
-            "V", "W", "X", "Y", "Z"
-        ]
+        let letters = (65...90).map { String(UnicodeScalar($0)) }
         
         // set some values for the width and height of each button
         let width = Int(buttonsView.frame.width / 5)
